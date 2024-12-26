@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>What is Software Engineering?</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        line-height: 1.6;
+        margin: 0;
+        padding: 0;
+        background-color: #a19b9b;
+        color: #333;
+      }
+      header {
+        background: linear-gradient(90deg, #79b3f1, #bbe2c8);
+        color: #fff;
+        padding: 20px 20px;
+        text-align: center;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      }
+      header h1 {
+        margin: 0;
+        font-size: 2.5rem;
+        animation: fadeIn 2s;
+      }
+      .container {
+        max-width: 1200px;
+        margin: auto;
+        padding: 20px;
+        background: #bbe2c8;
+        border-radius: 8px;
+        box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+      }
+      h1,
+      h2,
+      h3 {
+        color: #000000;
+      }
+      ul,
+      ol {
+        margin: 10px 0;
+        padding-left: 20px;
+      }
+      section {
+        margin-bottom: 30px;
+      }
+      .cards {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 20px;
+      }
+      .card {
+        background: #f3f3f7;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        overflow: hidden;
+        transition: transform 0.3s;
+      }
+      .card img {
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+      }
+      .card:hover {
+        transform: translateY(-5px);
+      }
+      .card-content {
+        padding: 15px;
+      }
+      footer {
+        background: linear-gradient(90deg, #79b3f1, #bbe2c8);
+        color: #000000;
+        text-align: center;
+        padding: 20px 0;
+        margin-top: 30px;
+        position: relative;
+      }
+      nav {
+        display: flex;
+        justify-content: center;
+        background: #f3f3f7;
+        color: #f4f4f9;
+        padding: 15px 0;
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      }
+      nav a {
+        margin: 0 15px;
+        text-decoration: none;
+        color: #000000;
+        font-weight: bold;
+      }
+      nav a:hover {
+        text-decoration: underline;
+      }
+      @keyframes fadeIn {
+        from {
+          opacity: 0;
+        }
+        to {
+          opacity: 1;
+        }
+      }
+      @media (max-width: 768px) {
+        .container {
+          padding: 10px;
+        }
+      }
+    </style>
+    
+  </head>
+  <body>
+    <header>
+      <h1 style="color: #000000">What is Software Engineering?</h1>
+    </header>
+    <nav>
+      <a href="#role" onclick="scrollToSection('role')">Role</a>
+      <a href="#skills" onclick="scrollToSection('skills')">Skills</a>
+      <a href="#tools" onclick="scrollToSection('tools')">Tools</a>
+      <a href="#sdlc" onclick="scrollToSection('sdlc')">SDLC</a>
+      <a href="#fields" onclick="scrollToSection('fields')">Fields</a>
+      <a href="#trends" onclick="scrollToSection('trends')">Trends</a>
+      <a href="#roadmap" onclick="scrollToSection('roadmap')">Roadmap</a>
+    </nav>
+    <div class="container">
+      <section class="top-chapter-section">
+        <div class="top-chapter top-chapter-se">
+          <div class="div-block-115">
+            <h1 class="chapter-title">How to become a Software Engineer</h1>
+            <div class="chapter-subtitle">
+              <strong>A beginner’s guide to Software Engineering</strong>
+            </div>
+            <div class="chapter-txt">
+              Curious about a career as a software engineer? You’re in the right
+              place. Whether you want to end up coding games, or if you’re just
+              asking yourself, <em>What is coding?</em>, we can help. Read on to
+              learn all you’ve ever wanted to know about computer programming.
+              We go into the nuances of software developer vs. software
+              engineer. We discuss the value of enrolling in a free coding
+              bootcamp. We even give you recommendations on programming
+              certifications.<br />‍<br />Dive in. Great software engineering
+              jobs await.
+            </div>
+            <div class="chapter-img-copy image-se"></div>
+          </div>
+        </div>
+      </section>
+
+      <section id="role">
+        <h2>Role of a Software Engineer</h2>
+        <div class="cards">
+          <div class="card">
+            <img
+              src="/download.jpg"
+              alt="Software Development"
+              style="height: fit-content;" />
+            <div class="card-content">
+              <h3>Designing Solutions</h3>
+              <p>
+                Creating system designs and architecture diagrams for robust
+                software applications.
+              </p>
+            </div>
+          </div>
+          <div class="card">
+            <img
+            src="/Collaborating_team_hero.jpg"
+            alt="Team Collaboration" style="height: fit-content;"
+            />
+            <div class="card-content">
+              <h3>Collaborating with Teams</h3>
+              <p>
+                Working with cross-functional teams to understand and implement
+                project requirements.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="skills">
+        <h2>Essential Skills for Software Engineers</h2>
+        <ul>
+          <li>
+            Programming Proficiency: Expertise in languages such as Python,
+            Java, JavaScript, or C++.
+          </li>
+          <li>
+            Problem-Solving: Ability to tackle complex challenges with logical
+            solutions.
+          </li>
+          <li>
+            Version Control Systems: Knowledge of tools like Git for code
+            management.
+          </li>
+          <li>Database Management: Understanding SQL and NoSQL databases.</li>
+          <li>Collaboration: Strong teamwork and communication skills.</li>
+          <li>
+            Continuous Learning: Staying updated with new technologies and
+            methodologies.
+          </li>
+        </ul>
+      </section>
+
+      <section id="tools">
+        <h2>Key Tools in Software Engineering</h2>
+        <div class="cards">
+          <div class="card">
+            <img src="/download.png" alt="IDE" style="height: fit-content;" />
+            <div class="card-content">
+              <h3>Integrated Development Environments</h3>
+              <p>
+                Tools like Visual Studio and IntelliJ IDEA streamline coding
+                workflows.
+              </p>
+            </div>
+          </div>
+          <div class="card">
+            <img
+              src="/1_UbeKefkEmWfMEEwIx5YRlw.webp"
+              style="height: fit-content;"
+              alt="Version Control"
+            />
+            <div class="card-content">
+              <h3>Version Control</h3>
+              <p>
+                Git and GitHub enable efficient collaboration and code
+                versioning.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="sdlc">
+        <h2>Software Development Lifecycle (SDLC)</h2>
+        <ol>
+          <li>
+            Requirement Analysis: Identifying what the software needs to do.
+          </li>
+          <li>Design: Planning the architecture and interface.</li>
+          <li>Implementation: Writing and integrating code.</li>
+          <li>Testing: Verifying the software meets requirements.</li>
+          <li>Deployment: Delivering the software to users.</li>
+          <li>Maintenance: Updating and improving the software over time.</li>
+        </ol>
+      </section>
+
+      <section id="fields">
+        <h2>Fields in Software Engineering</h2>
+        <ul>
+          <li>
+            Web Development: Building websites and web applications using HTML,
+            CSS, JavaScript, and frameworks like React or Angular.
+          </li>
+          <li>
+            Mobile Development: Creating apps for iOS and Android using Flutter
+            or Swift.
+          </li>
+          <li>
+            Artificial Intelligence: Developing AI-driven systems with tools
+            like TensorFlow or PyTorch.
+          </li>
+          <li>
+            Game Development: Crafting interactive games using Unity or Unreal
+            Engine.
+          </li>
+          <li>
+            Data Engineering: Managing and analyzing data using Hadoop, Spark,
+            or Python.
+          </li>
+          <li>
+            Cybersecurity: Protecting systems and networks from vulnerabilities.
+          </li>
+        </ul>
+      </section>
+
+      <section id="trends">
+        <h2>Current Trends in Software Engineering</h2>
+        <ul>
+          <li>
+            Cloud Computing: The shift to cloud-based applications and services.
+          </li>
+          <li>
+            AI and Machine Learning: Increasing integration of AI in software
+            systems.
+          </li>
+          <li>
+            DevOps: Enhancing collaboration between development and operations
+            teams.
+          </li>
+          <li>
+            Microservices Architecture: Building modular, scalable software
+            systems.
+          </li>
+          <li>
+            Blockchain Technology: Applications in secure and decentralized
+            systems.
+          </li>
+        </ul>
+      </section>
+
+      <section id="roadmap">
+        <h2>Career Roadmap for Aspiring Software Engineers</h2>
+        <ol>
+          <li>
+            Education: Earn a degree in computer science, IT, or related fields.
+          </li>
+          <li>Learn Programming: Master at least one programming language.</li>
+          <li>
+            Build Projects: Gain hands-on experience by developing software
+            projects.
+          </li>
+          <li>
+            Internships: Work in real-world environments to enhance skills.
+          </li>
+          <li>
+            Certifications: Obtain certifications in areas like cloud computing
+            (AWS), DevOps, or cybersecurity.
+          </li>
+          <li>
+            Networking: Connect with professionals through events and platforms
+            like LinkedIn.
+          </li>
+        </ol>
+      </section>
+
+      <section>
+        <h2>Conclusion</h2>
+        <p>
+          Software engineering is a dynamic and rewarding field that demands
+          technical expertise, creativity, and continuous learning. By mastering
+          essential skills, staying updated with industry trends, and building a
+          strong foundation, you can excel as a software engineer and contribute
+          meaningfully to this ever-evolving discipline. Whether you aim to
+          develop groundbreaking apps or secure complex systems, the
+          possibilities are endless in the world of software engineering.
+        </p>
+      </section>
+    </div>
+    <footer>&copy; 2024 Software Engineering Blog
+        <h3>Created by : <a href="https://www.linkedin.com/in/developer-hasnain">Muhammad Hasnain</a></h3>
+    </footer>
+    <script src="app.js"></script>
+  </body>
+</html>
